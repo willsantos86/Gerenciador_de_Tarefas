@@ -5,5 +5,5 @@ class TarefaForm(forms.ModelForm):
     class Meta:
         model = Tarefa
         fields = [
-            'responsavel', 'tarefa', 'data', 'status'
+            'setor', 'responsavel', 'tarefa', 'data', 'status'
         ]

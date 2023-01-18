@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from base.forms import *
+from base.models import *
 # Create your views here.
 
 def tarefa(request):
@@ -10,7 +11,8 @@ def tarefa(request):
         form.save()
     contexto = {
         'form': form,
-        'sucesso': sucesso
+        'sucesso': sucesso,
+        'dados': Tarefa.objects.all(),
     }
 
     return render(request, 'tarefa.html', contexto)

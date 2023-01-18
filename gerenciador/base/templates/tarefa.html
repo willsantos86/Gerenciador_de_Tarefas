@@ -1,4 +1,5 @@
 {% load static %}
+{% load bootstrap5 %}
 <!doctype html>
 <html lang="en">
   <head>
@@ -44,14 +45,49 @@
           </div>
         </div>
       </nav>
-      <form method="post" action="">
-        <div class="col-auto">
-        {{ form.as_p }}
+      <form class="form-group col-lg-12 m-auto" method="post" action="">
+        <div class="input-group-text mb-3 m-5">
+        {% csrf_token %}
+        {% bootstrap_form form %}
         </div>
-        <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end mx-5">
+          <button type="submit" class="btn btn-primary mb-3">Adicionar</button>
         </div>
+        <hr>
       </form>
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Setor</th>
+            <th scope="col">Quem</th>
+            <th scope="col">O que</th>
+            <th scope="col">Quando</th>
+            <th scope="col">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>{{ dados.setor }}</td>
+            <td>{{ dados.responsavel }}</td>
+            <td>{{ dados.tarefa }}</td>
+            <td>{{ dados.data }}</td>
+            <td>{{ dados.status }}</td>
+          </tr>
+          <!-- <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr> -->
+        </tbody>
+      </table>
+      
       
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
