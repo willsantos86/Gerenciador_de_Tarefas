@@ -24,9 +24,10 @@ class Pessoas(models.Model):
 
 class Tarefa(models.Model):
     LISTA_STATUS = (
-        ('Fechado', 'Fechado'),
-        ('Pendente','Pendente'),
+        ('Feito', 'Feito'),
         ('Em Progresso', 'Em Progresso'),
+        ('Pendente','Pendente'),
+        
     )
     LISTA_SETOR = (
         ('Produção', 'Produção'),

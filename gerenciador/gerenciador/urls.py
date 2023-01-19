@@ -16,9 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from base.views import tarefa
+from base.views import *
 
+app_name= 'base'
 urlpatterns = [
-    path('', tarefa),
+    path('', tarefa, name='tarefa'),
+    path('editar/<int:pk>/', editar, name='editar'),
     path('admin/', admin.site.urls),
 ]
