@@ -55,7 +55,7 @@
         </div>
         <hr>
       </form>
-      <table class="table">
+      <table class="table col-11 m-auto mx-5">
         <thead>
           <tr>
             <th scope="col">Setor</th>
@@ -67,13 +67,15 @@
         </thead>
         <tbody>
           <tr>
-            <th scope="row">1</th>
-            <td>{{ dados.setor }}</td>
-            <td>{{ dados.responsavel }}</td>
-            <td>{{ dados.tarefa }}</td>
-            <td>{{ dados.data }}</td>
-            <td>{{ dados.status }}</td>
+            <!-- <th scope="row">1</th> -->
+            {% for lista in listas %}
+            <td>{{ lista.setor }}</td>
+            <td>{{ lista.responsavel }}</td>
+            <td>{{ lista.tarefa }}</td>
+            <td>{{ lista.data }}</td>
+            <td>{{ lista.status }}</td>
           </tr>
+            {% endfor %}
           <!-- <tr>
             <th scope="row">2</th>
             <td>Jacob</td>
