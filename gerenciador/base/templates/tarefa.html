@@ -3,17 +3,17 @@
 {% load bootstrap5 %}
 
 {% block conteudo %}
-<div class="container my-3 m-auto">
-  <div class="px-2 py-2  text-white border border-white rounded">
+<div class="container my-5 m-auto">
+  <div class="px-2 py-2  text-black border border-white rounded" style="background: rgb(55, 71, 79);">
       <div class="col-lg-12 text-center">
-          <h1 class="display-4 fst-italic" style="text-align: center; color: white; font-size: 25px;">Adicionar</h1>
+          <h1 class="display-4 fst-italic" style="text-align: center; color: white; font-size: 25px;" >Adicionar</h1>
       </div>
     </div>
         {% if sucesso %}
         <p class="alert alert-success text-center fst-italic">Mensagem enviada com sucesso!</p>
         {% else %}
-        <form class="form-group m-auto border border-white p-5 fw-bolder shadow p-3 mb-5 bg rounded fst-italic"  method="post" action="">
-            <div class="input-group-text fw-bolder text-white bg bg-dark mb-5 fst-italic" style="font-size: 20px;">
+        <form class="form-group m-auto border border-white p-5 fw-bolder shadow p-3 mb-5 bg rounded fst-italic" style="background: rgb(0,212, 255);" method="post" action="">
+            <div class="input-group-text fw-bolder text-white bg  mb-5 fst-italic" style="font-size: 20px; background: rgb(55, 71, 79);">
             {% csrf_token %}
             {% bootstrap_form form %}
             <button type="submit" class="btn btn-primary mx-2 mt-3 fw-bold fst-italic">Adicionar</button>
