@@ -21,8 +21,9 @@ app_name= 'base'
 
 urlpatterns = [
     path('', inicio, name='inicio'),
+    path('deletar/<int:pk>/', deletar, name='deletar'),
     path('tarefa/', tarefa, name='tarefa'),
-    path('editar/<int:id>/', editar, name="editar"),
+    path('editar/<int:pk>/', editar, name="editar"),
     path('visualizar/', visualizar, name='visualizar'),
     path('admin/', admin.site.urls),
 ]

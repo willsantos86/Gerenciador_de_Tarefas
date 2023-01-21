@@ -4,16 +4,17 @@
 
 {% block conteudo %}
 
-    <div class="input-group-text m-auto col-12">
+    <div class="container my-5 m-auto">
         {% if sucesso %}
-        <p class="alert alert-success">Mensagem enviada com sucesso!</p>
+        <p class="alert alert-success text-center">Mensagem enviada com sucesso!</p>
         {% else %}
-        <form class="form-group col-12 m-auto" method="post" action="">
-        {% csrf_token %}
-        {% bootstrap_form form %}
-        <button type="submit" class="btn btn-primary mx-2 mt-3 fw-bold">Adicionar</button>
+        <form class="form-group m-auto" method="post" action="">
+            <div class="input-group-text">
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            <button type="submit" class="btn btn-primary mx-2 mt-3 fw-bold">Adicionar</button>
+            </div>
+        </form>
+        {% endif %}
     </div>
-    </form>
-    {% endif %}
-</div>
 {% endblock %}

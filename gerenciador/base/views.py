@@ -54,12 +54,12 @@ def editar(request, pk):
     form = TarefaForm(instance= tarefa )
     context = {'form': form}
 
-    if request.method=='POST':
+    if request.method =='POST':
         form = TarefaForm(request.POST, instance= tarefa)
 
         if form.is_valid():
             form.save()
-            return redirect('base:visualizar')
+            return redirect('visualizar')
     return render(request, 'editar.html', context)
 
 
