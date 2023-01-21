@@ -3,18 +3,17 @@
 {% load bootstrap5 %}
 
 {% block conteudo %}
-
-    <div class="container my-5 m-auto">
-        <div class="px-3 py-3 mb-1 text-dark border rounded" style="background: rgb(242, 243, 244)">
-            <div class="col-lg-12 text-center">
-              <h1 class="display-4" style="text-align: center; color: black; font-size: 40px;">Registro de Tarefa</h1>
-            </div>
-          </div>
+<div class="container my-3 m-auto">
+  <div class="px-2 py-2  text-dark border border-dark rounded" style="background: rgb(242, 243, 244)">
+      <div class="col-lg-12 text-center">
+          <h1 class="display-4" style="text-align: center; color: black; font-size: 25px;">Adicionar Tarefas</h1>
+      </div>
+    </div>
         {% if sucesso %}
         <p class="alert alert-success text-center">Mensagem enviada com sucesso!</p>
         {% else %}
-        <form class="form-group m-auto" method="post" action="">
-            <div class="input-group-text">
+        <form class="form-group m-auto border border-dark p-5 fw-bolder"  method="post" action="">
+            <div class="input-group-text fw-bolder mb-5" style="font-size: 25px;">
             {% csrf_token %}
             {% bootstrap_form form %}
             <button type="submit" class="btn btn-primary mx-2 mt-3 fw-bold">Adicionar</button>

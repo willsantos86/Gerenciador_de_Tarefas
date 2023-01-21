@@ -4,16 +4,16 @@
 {% load bootstrap5 %}
 
 {% block conteudo %}
-<main class="container">
-    <div class="px-3 py-3 mb-1 text-dark border rounded" style="background: rgb(242, 243, 244)">
+
+<div class="container my-3 m-auto">
+  <div class="px-2 py-2 text-dark border border-dark rounded" style="background: rgb(242, 243, 244)">
       <div class="col-lg-12 text-center">
-        <h1 class="display-4" style="text-align: center; color: black; font-size: 40px;">Lista de Empréstimo</h1>
+          <h1 class="display-4" style="text-align: center; color: black; font-size: 25px;">Lista de Tarefas</h1>
       </div>
     </div>
-    <div class="row mb-2">
 <div class="table-responsive" >
-    <table class="table" style="border: 2px;">
-        <tr>
+    <table class="table border border-dark" style="border: 2px;">
+        <tr class="text-center">
             <th>Setor</th>
             <th>Quem?</th>
             <th>O que?</th>
@@ -23,7 +23,7 @@
             <th>Deletar</th>
         </tr>
         {% for tarefa in tarefas %} 
-        <tr>
+        <tr class="text-center">
             <td>{{ tarefa.setor }}</td>
             <td>{{ tarefa.responsavel }}</td>
             <td>{{ tarefa.tarefa }}</td>

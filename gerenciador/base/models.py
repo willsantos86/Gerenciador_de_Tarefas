@@ -21,7 +21,7 @@ class Pessoas(models.Model):
         verbose_name_plural = 'Pessoas'
         ordering = ['nome']
 
-
+    
 class Tarefa(models.Model):
     LISTA_STATUS = (
         ('Feito', 'Feito'),
