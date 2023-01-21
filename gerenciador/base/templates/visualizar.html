@@ -6,14 +6,14 @@
 {% block conteudo %}
 
 <div class="container my-3 m-auto">
-  <div class="px-2 py-2 text-dark border border-dark rounded" style="background: rgb(242, 243, 244)">
+  <div class="px-2 py-2 text-dark border border-white rounded" >
       <div class="col-lg-12 text-center">
-          <h1 class="display-4" style="text-align: center; color: black; font-size: 25px;">Lista de Tarefas</h1>
+          <h1 class="display-4 fst-italic" style="text-align: center; color: white; font-size: 25px;">Lista</h1>
       </div>
     </div>
 <div class="table-responsive" >
-    <table class="table border border-dark" style="border: 2px;">
-        <tr class="text-center">
+    <table class="table border border-white shadow p-3 mb-5 rounded" style="border: 2px;">
+        <tr class="text-center text-white fst-italic">
             <th>Setor</th>
             <th>Quem?</th>
             <th>O que?</th>
@@ -23,7 +23,7 @@
             <th>Deletar</th>
         </tr>
         {% for tarefa in tarefas %} 
-        <tr class="text-center">
+        <tr class="text-center text-white fst-italic">
             <td>{{ tarefa.setor }}</td>
             <td>{{ tarefa.responsavel }}</td>
             <td>{{ tarefa.tarefa }}</td>
