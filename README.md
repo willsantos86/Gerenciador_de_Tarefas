@@ -6,7 +6,8 @@
 
 # Indice
 - [Sobre](#Sobre)
-- [Apresentação](#Apresentação)
+- [Status](#Status)
+- [Funcionalidades](#Funcionalidades)
 - [Tecnologias Utilizadas](#Tecnologias-Utilizadas)
 - [Autor](#Autor)
 
