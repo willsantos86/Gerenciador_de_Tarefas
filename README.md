@@ -8,7 +8,7 @@
 
 O gerenciador de tarefa é uma aplicação web construída como parte dos desafios durante a mentoria **Conquiste Sua Vaga-22**, os eventos são organizados e ministrados pelos mentores [Pedro Marins](https://www.linkedin.com/in/pedromarins/ "Perfil do LinkedIn"), [Henrique de Andrade](https://www.linkedin.com/in/henrique-de-andrade/ "Perfil LinkedIn") e equipe.
 
-A aplicação consiste em registrar as tarefas, permitindo o cadastro dos membros que fazem parte do projeto, via django admin. Para cadastrar a tarefa é necessário preencher os campos do resposável pela tarefa, setor do responsável, qual tarefa será realizada, qual a data prevista para entrega e o status.
+A aplicação consiste em registrar as tarefas, permitindo o cadastro dos membros que fazem parte do projeto. Para cadastrar a tarefa é necessário preencher os campos do resposável pela tarefa, setor do responsável, qual tarefa será realizada, qual a data prevista para entrega e o status.
 O sistema permite criar, listar, editar e deletar uma tarefa. 
 
 ## Paginas
