@@ -17,7 +17,13 @@ O gerenciador de tarefa é uma aplicação web construída como parte dos desafi
 A aplicação consiste em registrar as tarefas, permitindo o cadastro dos membros que fazem parte do projeto. Para cadastrar a tarefa é necessário preencher os campos do resposável pela tarefa, setor do responsável, qual tarefa será realizada, qual a data prevista para entrega e o status.
 O sistema permite criar, listar, editar e deletar uma tarefa. 
 
-## Apresentação
+## Funcionalidades
+- Fazer login
+- Cadastrar tarefa
+- Listar tarefa
+- Editar tarefa
+- Deletar tarefa
+
 ![Login](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/login.png) 
 ![Adicionar](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/adicionar.png)
 ![Listar](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/listar.png)
