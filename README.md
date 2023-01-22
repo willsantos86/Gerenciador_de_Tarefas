@@ -5,10 +5,10 @@
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/LICENSE) 
 
 # Indice
-- [Sobre](#-Sobre)
-- [Apresentação](#-Apresentação)
+- [Sobre](#Sobre)
+- [Apresentação](#Apresentação)
 - [Tecnologias Utilizadas](#Tecnologias-Utilizadas)
-- [Autor](#-Autor)
+- [Autor](#Autor)
 
 ## Sobre
 
