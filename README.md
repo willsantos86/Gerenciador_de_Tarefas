@@ -28,7 +28,7 @@ O sistema permite criar, listar, editar e deletar uma tarefa.
 - [Python](https://www.python.org/)
 - [Django](https://www.djangoproject.com/)
 - [SQLite3](https://www.sqlite.org/index.html)
-- 
+
 ## Front end
 - [HTML](https://www.w3schools.com/html/)
 - [CSS](https://www.w3schools.com/css/default.asp)
