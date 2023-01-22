@@ -12,7 +12,7 @@
         {% if sucesso %}
         <p class="alert alert-success text-center fst-italic">Mensagem enviada com sucesso!</p>
         {% else %}
-        <form class="form-group m-auto border border-white p-5 fw-bolder shadow p-3 mb-5 bg rounded fst-italic" style="background: rgb(0,212, 255);" method="post" action="">
+        <form class="form-group m-auto border border-white p-5 fw-bolder shadow p-3 mb-5 bg rounded fst-italic" style="background: white;" method="post" action="">
             <div class="input-group-text fw-bolder text-white bg  mb-5 fst-italic" style="font-size: 20px; background: rgb(55, 71, 79);">
             {% csrf_token %}
             {% bootstrap_form form %}
