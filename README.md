@@ -28,12 +28,13 @@ O sistema permite criar, listar, editar e deletar uma tarefa.
 - [x] Lista de tarefa
 - [x] Editar de tarefa
 - [x] Deletar tarefa
-- [ ] Cadastrar membros via template
+- [x] Cadastrar colaboradores
 
 ![Login](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/login.png) 
 ![Adicionar](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/adicionar.png)
 ![Listar](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/listar.png)
 ![Editar](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/editar.png)
+![Colaborador](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/cadastrar_colaborador.png)
 
 
 # Tecnologias utilizadas
