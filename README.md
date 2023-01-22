@@ -18,21 +18,22 @@ A aplicação consiste em registrar as tarefas, permitindo o cadastro dos membro
 O sistema permite criar, listar, editar e deletar uma tarefa. 
 
 ## Apresentação
-![Mobile 1](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/login.png) 
-![Web 1](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/adicionar.png)
-![Web 2](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/listar.png)
-![Modelo Conceitual](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/editar.png)
+![Login](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/login.png) 
+![Adicionar](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/adicionar.png)
+![Listar](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/listar.png)
+![Editar](https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/editar.png)
 
 # Tecnologias utilizadas
 ## Back end
-- Python
-- Django
-- SQLite3
+- [Python](https://www.python.org/)
+- [Django](https://www.djangoproject.com/)
+- [SQLite3](https://www.sqlite.org/index.html)
+- 
 ## Front end
-- HTML
-- CSS
-- JS
-- Bootstrap
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/default.asp)
+- [JS](https://www.w3schools.com/js/default.asp)
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
 
 # Autor
 
