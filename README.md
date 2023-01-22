@@ -50,7 +50,8 @@ O sistema permite criar, listar, editar e deletar uma tarefa.
 
 # Autor
 
-William Santos
+  <img src="https://github.com/willsantos86/Gerenciador_de_Tarefas/blob/main/assets/Design%20sem%20nome%20(4).png" width="100" height="100">
+  <h6 margin="50">William Santos</h6>
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/willsantos86)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/5571996279764)
